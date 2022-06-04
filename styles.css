@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+    font-size: 3vh;
+    font-family: 'Roboto', sans-serif;
+}
+.con {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+.all {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.one {
+    padding: 20px;
+    border: 1px solid blue;
+}
+h5 {
+    margin-top: -20%;
+    padding-left: 22%;
+}
+.two h5 {
+    padding-left: 30%;
+}
+h6 {
+    padding-bottom: 15%;
+}
+p {
+    position: relative;
+    padding-top: 5%;
+}
+.two {
+    padding: 20px;
+    border: 3px solid blue;
+}
+.three {
+    padding: 20px;
+    border: 1px solid blue;
+}
+span {
+    color: red;
+    height: 200px;
+    width: 100px;
+}
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid blue;
+}
+.two button {
+    background-color: blue;
+    color: white;
+}
+h1 {
+    font-size: 25px;
+}
+.pro {
+    color: blue;
+}
+.simple {
+    text-align: center;
+}
+.simple p {
+    margin-top: -25px;
+    padding-bottom: 30px;
+}
+form {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .con {
+        display: flex;
+        flex-direction: column;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    p {
+        padding-top: 5vh;
+    }
+    .all {
+        margin: 0;
+        padding: 21px;
+    }
+}
